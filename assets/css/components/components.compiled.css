@@ -21,3 +21,17 @@ body#page__index #section__menu__desktop, body#page__login #section__menu__deskt
     padding-bottom: 75px;
   }
 }
+
+.fixed-top {
+  transition: top 0.5s;
+}
+.fixed-top.abovetop {
+  top: -65px;
+}
+
+.fixed-bottom {
+  transition: bottom 0.5s;
+}
+.fixed-bottom.underbottom {
+  bottom: -75px;
+}

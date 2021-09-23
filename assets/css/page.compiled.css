@@ -1,0 +1,20 @@
+* {
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: #CBCCCB;
+  height: -webkit-fill-available;
+}
+body {
+  background: #CBCCCB;
+  min-height: -webkit-fill-available;
+}
+
+header,
+main,
+footer {
+  background: #fff;
+}

@@ -18,3 +18,7 @@ main,
 footer {
   background: #fff;
 }
+
+svg.icon--gradient * {
+  fill: #00381a;
+}

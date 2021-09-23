@@ -19,6 +19,10 @@ footer {
   background: #fff;
 }
 
+body {
+  min-height: 100vh;
+}
+
 svg.icon--gradient * {
   fill: #00381a;
 }

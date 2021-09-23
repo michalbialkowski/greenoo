@@ -1,0 +1,7 @@
+.noshadow {
+  box-shadow: none !important;
+}
+
+.nooutline {
+  outline: none !important;
+}

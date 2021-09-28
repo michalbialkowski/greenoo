@@ -9,6 +9,13 @@
   }
 }
 
+@media screen and (max-width: 575.98px) {
+  #section__menu__mobile .container {
+    max-width: none;
+    padding: 0;
+  }
+}
+
 body#page__index, body#page__login, body#page__register {
   padding-bottom: 0;
 }

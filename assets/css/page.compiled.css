@@ -20,34 +20,101 @@
 }
 
 html {
-  background: #CBCCCB;
   height: -webkit-fill-available;
 }
-body {
-  background: #CBCCCB;
+html body {
   min-height: -webkit-fill-available;
 }
-body > div:first-child {
-  background: white;
-  min-height: 100vh;
+@media (max-width: 991.98px) {
+  html body > #section__page {
+    min-height: 100vh;
+  }
+}
+
+html {
+  background: #CBCCCB;
+}
+html body {
+  background: #CBCCCB;
+}
+html body > #section__page {
+  background: #CBCCCB;
 }
 @media (max-width: 991.98px) {
-  body.hastopnav {
+  html {
+    background: #fff;
+  }
+  html body {
+    background: #fff;
+  }
+  html body > #section__page {
+    background: #fff;
+  }
+}
+@media (max-width: 991.98px) {
+  html.bg__lighten {
+    background: #e5e5e5;
+  }
+  html.bg__lighten body {
+    background: #e5e5e5;
+  }
+  html.bg__lighten body > #section__page {
+    background: #e5e5e5;
+  }
+}
+@media (max-width: 991.98px) {
+  html.bg__darkgreen {
+    background: #006B32;
+  }
+  html.bg__darkgreen body {
+    background: #006B32;
+  }
+  html.bg__darkgreen body > #section__page {
+    background: #006B32;
+  }
+}
+html header,
+html main,
+html footer {
+  background: #fff;
+}
+
+@media (max-width: 991.98px) {
+  body.hastopnav > #section__page {
     padding-top: 65px;
   }
-  body.hastopnav > div:first-child {
-    min-height: calc(100vh - 65px);
-  }
-}
-@media (max-width: 991.98px) {
-  body.hasbottomnav > div:first-child {
+  body.hasbottomnav > #section__page {
     padding-bottom: 75px;
   }
 }
-header,
-main,
-footer {
-  background: #fff;
+
+body.nav__konto #section__menu__mobile .nav__konto {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__oferty #section__menu__mobile .nav__oferty {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__zakupy #section__menu__mobile .nav__zakupy {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__zasoby #section__menu__mobile .nav__zasoby {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__najemca #section__menu__mobile .nav__najemca {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__wynajmujacy #section__menu__mobile .nav__wynajmujacy {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
+}
+body.nav__aplikacja #section__menu__mobile .nav__aplikacja {
+  background: white linear-gradient(rgba(203, 204, 203, 0), rgba(203, 204, 203, 0.25));
+  box-shadow: 0 0 10px rgba(203, 204, 203, 0.75) inset !important;
 }
 
 svg.icon--gradient * {

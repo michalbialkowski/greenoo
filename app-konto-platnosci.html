@@ -12,20 +12,20 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-grid.compiled.css?h=cda94c6609ea22ac0d4d2e1924551f9c">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-reboot.compiled.css?h=04034807fab05d2f1e79e6368d37bf67">
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap-utilities.compiled.css?h=017831a1a2a03a3f97dd4beffd034d09">
-    <link rel="stylesheet" href="assets/css/page.compiled.css?h=f313169f385a7fe64568dcb8b04e984c">
+    <link rel="stylesheet" href="assets/css/page.compiled.css?h=373fc0376f98d45a58c918a9a993a2a2">
     <link rel="stylesheet" href="assets/css/utilities/utilities.compiled.css?h=1d610c08549d542e09b90959cea4dbf4">
     <link rel="stylesheet" href="assets/css/auth/auth.compiled.css?h=c4401a72b79328a083d75486f4b4ff77">
-    <link rel="stylesheet" href="assets/css/components/components.compiled.css?h=cf8506cb97408f8a7f986e4bf3717daa">
+    <link rel="stylesheet" href="assets/css/components/components.compiled.css?h=3ad42719559c4b0d9df05b8597aa73d7">
     <link rel="stylesheet" href="assets/css/libs/libs.compiled.css?h=dda1d572cef268e6e6aba30c50241324">
     <link rel="stylesheet" href="assets/css/overrides/overrides.compiled.css?h=e097e8ffb4fe4dde91045d877bcf3c85">
 </head>
 
-<body class="hastopnav auth">
-    <div>
+<body class="hastopnav auth nav__konto">
+    <div id="section__page">
         <header>
             <div id="section__menu__desktop">
-                <div class="bg-white fixed-top">
-                    <nav class="navbar navbar-light navbar-expand bg-white shadow-sm p-0 h--65">
+                <div class="bg-white fixed-top overflow-hidden">
+                    <nav class="navbar navbar-light navbar-expand bg-white shadow-sm p-0 h--65 border-bottom">
                         <div class="container"><a class="navbar-brand d-block mt-1" href="index.html"><img class="d-block" src="assets/img/logo/logo_color_horizontal.svg?h=57cabbad6d4ca188c530e3bbbffab782" style="height: 38px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                             <div class="collapse navbar-collapse" id="navcol-1">
                                 <div class="w-100">
@@ -87,27 +87,27 @@
                 </div>
             </div>
             <div class="d-lg-none" id="section__menu__mobile">
-                <div class="bg-white fixed-bottom border-top">
+                <div class="bg-white fixed-bottom border-top overflow-hidden">
                     <div class="container">
-                        <div class="row row-cols-4 mx-n1 guest">
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="page-dla-wynajmujacych.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-field.svg?h=c5e2cfec8b3500e09547d70501061161"></span><small class="d-block fs--xxsmall">Wynajmujący</small></a></div>
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="page-dla-najemcow.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-vegetables.svg?h=1d9e56a635e2ffc8726d13b22c5a3002"></span><small class="d-block fs--xxsmall">Najemca</small></a></div>
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="page-o-aplikacji.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-plant.svg?h=e11a3b3793067a10f1883acafa92ea2f"></span><small class="d-block fs--xxsmall">O aplikacji</small></a></div>
-                            <div class="col px-1"><button class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" type="button" data-bs-target="#modal__menu" data-bs-toggle="modal"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--30 h--30" src="assets/img/icons/icon-menu.svg?h=5456f31dc9fb8c6d47d910090053f131"></span><small class="d-block fs--xxsmall">Więcej</small></button></div>
+                        <div class="row g-0 row-cols-4 guest">
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__wynajmujacy rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="page-dla-wynajmujacych.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-field.svg?h=c5e2cfec8b3500e09547d70501061161"></span><small class="d-block fs--xxsmall">Wynajmujący</small></a></div>
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__najemca rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="page-dla-najemcow.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-vegetables.svg?h=1d9e56a635e2ffc8726d13b22c5a3002"></span><small class="d-block fs--xxsmall">Najemca</small></a></div>
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__aplikacja rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="page-o-aplikacji.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-plant.svg?h=e11a3b3793067a10f1883acafa92ea2f"></span><small class="d-block fs--xxsmall">O aplikacji</small></a></div>
+                            <div class="col"><button class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" type="button" data-bs-target="#modal__menu" data-bs-toggle="modal"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--30 h--30" src="assets/img/icons/icon-menu.svg?h=5456f31dc9fb8c6d47d910090053f131"></span><small class="d-block fs--xxsmall">Więcej</small></button></div>
                         </div>
-                        <div class="row row-cols-5 mx-n1 auth">
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="app-oferty.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-leaf-2.svg?h=5cde077e8d04240382289a8168813d74"></span><small class="d-block fs--xxsmall">Oferty</small></a></div>
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="app-zakupy.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35 mt-2" src="assets/img/icons/icon-hand-shake.svg?h=46a84e58db30186f6ccc07bedfd1388e"></span><small class="d-block fs--xxsmall">Zakupy</small></a></div>
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="app-zasoby.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-fences.svg?h=c1aca6ed680447b1ae10d4e5c99a01e6"></span><small class="d-block fs--xxsmall">Zasoby</small></a></div>
-                            <div class="col px-1"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" role="button" href="app-konto.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-farmer-2.svg?h=929c82b4d11f70322bb594b5cc1dfee7"></span><small class="d-block fs--xxsmall">Konto</small></a></div>
-                            <div class="col px-1"><button class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline" type="button" data-bs-target="#modal__menu" data-bs-toggle="modal"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--30 h--30" src="assets/img/icons/icon-menu.svg?h=5456f31dc9fb8c6d47d910090053f131"></span><small class="d-block fs--xxsmall">Więcej</small></button></div>
+                        <div class="row g-0 row-cols-5 auth">
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__oferty rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="app-oferty.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-leaf-2.svg?h=5cde077e8d04240382289a8168813d74"></span><small class="d-block fs--xxsmall">Oferty</small></a></div>
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__zakupy rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="app-zakupy.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35 mt-2" src="assets/img/icons/icon-hand-shake.svg?h=46a84e58db30186f6ccc07bedfd1388e"></span><small class="d-block fs--xxsmall">Zakupy</small></a></div>
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center nav__zasoby rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" role="button" href="app-zasoby.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-fences.svg?h=c1aca6ed680447b1ae10d4e5c99a01e6"></span><small class="d-block fs--xxsmall">Zasoby</small></a></div>
+                            <div class="col"><a class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline nav__konto border-0" role="button" href="app-konto.html"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--35 h--35" src="assets/img/icons/icon-farmer-2.svg?h=929c82b4d11f70322bb594b5cc1dfee7"></span><small class="d-block fs--xxsmall">Konto</small></a></div>
+                            <div class="col"><button class="btn d-flex flex-column justify-content-center align-items-center rounded-0 h--75 p-0 w-100 noshadow nooutline border-0" type="button" data-bs-target="#modal__menu" data-bs-toggle="modal"><span class="d-flex justify-content-center align-items-center mb-2 h--35"><img class="w--30 h--30" src="assets/img/icons/icon-menu.svg?h=5456f31dc9fb8c6d47d910090053f131"></span><small class="d-block fs--xxsmall">Więcej</small></button></div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="bg-light d-none d-lg-block py-3 bg-opacity-25">
+            <div class="bg-light d-none d-lg-block py-3 bg-opacity-25 border-bottom">
                 <div class="container">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html"><span>Strona główna</span></a></li>
@@ -136,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="py-4 py-lg-5 border-bottom border-top">
+            <div class="py-4 py-lg-5">
                 <div class="container">
                     <h1 class="display-6 text-center text-primary mb-3">Płatności</h1>
                     <div class="row justify-content-center">
@@ -148,7 +148,7 @@
             </div>
         </main>
         <footer>
-            <div class="shadow-sm d-none d-lg-block py--65">
+            <div class="shadow-sm d-none d-lg-block py--65 border-top">
                 <div class="container">
                     <div>
                         <div class="row align-items-lg-center my-n3">

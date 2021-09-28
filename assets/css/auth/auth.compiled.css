@@ -1,0 +1,6 @@
+body.auth .guest {
+  display: none !important;
+}
+body.guest .auth {
+  display: none !important;
+}

@@ -27,7 +27,23 @@ body {
   background: #CBCCCB;
   min-height: -webkit-fill-available;
 }
-
+body > div:first-child {
+  background: white;
+  min-height: 100vh;
+}
+@media (max-width: 991.98px) {
+  body.hastopnav {
+    padding-top: 65px;
+  }
+  body.hastopnav > div:first-child {
+    min-height: calc(100vh - 65px);
+  }
+}
+@media (max-width: 991.98px) {
+  body.hasbottomnav > div:first-child {
+    padding-bottom: 75px;
+  }
+}
 header,
 main,
 footer {

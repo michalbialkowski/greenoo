@@ -1,2 +1,2 @@
 $.removeCookie('auth');
-window.location.replace('/greenoo/index.html');
+window.location.replace('/index.html');

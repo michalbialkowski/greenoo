@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/overrides/overrides.compiled.css?h=e097e8ffb4fe4dde91045d877bcf3c85">
 </head>
 
-<body class="hastopnav auth nav__wiadomosci">
+<body class="hasbottomnav hastopnav auth nav__wiadomosci">
     <div id="section__page">
         <header>
             <div id="section__menu__desktop">
@@ -117,7 +117,7 @@
             </div>
         </header>
         <main>
-            <div class="bg-light d-none d-lg-block py-3 bg-opacity-25 border-bottom">
+            <div class="bg-light d-none d-lg-block py-3 bg-opacity-25 border-bottom" id="section__breadcrumbs">
                 <div class="container">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html"><span>Strona główna</span></a></li>
@@ -148,12 +148,335 @@
                     </div>
                 </div>
             </div>
-            <div class="py-4 py-lg-5">
-                <div class="container">
-                    <h1 class="display-6 text-center text-primary mb-3">Powiadomienia</h1>
-                    <div class="row justify-content-center">
-                        <div class="col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4">
-                            <p class="text-center mb-0 fw-light">Praesent et odio lacus. Vivamus dapibus mi urna, at laoreet massa hendrerit quis. Mauris cursus at nisi sit amet fermentum.<br></p>
+            <div id="section__wrapper" class="pb-4 pb-lg-5">
+                <div id="section__header" class="pt-4 pt-lg-5">
+                    <div class="container">
+                        <h1 class="display-6 text-center text-primary mb-3">Powiadomienia</h1>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-9 col-md-7 col-lg-6 col-xl-5 col-xxl-4">
+                                <p class="text-center mb-0 fw-light">Praesent et odio lacus. Vivamus dapibus mi urna, at laoreet massa hendrerit quis. Mauris cursus at nisi sit amet fermentum.<br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section__content" class="pt-4">
+                    <div class="container">
+                        <div class="d-lg-none">
+                            <div class="row my-n3">
+                                <div class="col-md-6 py-3">
+                                    <div class="card rounded-0 small">
+                                        <div class="card-header bg-lightgreen rounded-0 border-0 px-2">
+                                            <h4 class="mb-0 h6"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet</a></h4>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col px-2 py-1">
+                                                            <p class="text-body mb-0 text-opacity-75">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col-4 col-sm-3 px-2 py-1">
+                                                            <p class="mb-0">Data</p>
+                                                        </div>
+                                                        <div class="col px-2 py-1">
+                                                            <p class="mb-0">01.10.2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer px-2">
+                                            <div class="btn-toolbar justify-content-between m-n1">
+                                                <div class="btn-group btn-group-sm p-1" role="group"><button class="btn btn-primary rounded-pill px-3" type="button">Przeczytaj</button></div>
+                                                <div class="btn-group btn-group-sm p-1" role="group">
+                                                    <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <div class="card rounded-0 small">
+                                        <div class="card-header bg-lightgreen rounded-0 border-0 px-2">
+                                            <h4 class="mb-0 h6"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet</a></h4>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col px-2 py-1">
+                                                            <p class="text-body mb-0 text-opacity-75">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col-4 col-sm-3 px-2 py-1">
+                                                            <p class="mb-0">Data</p>
+                                                        </div>
+                                                        <div class="col px-2 py-1">
+                                                            <p class="mb-0">01.10.2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer px-2">
+                                            <div class="btn-toolbar justify-content-between m-n1">
+                                                <div class="btn-group btn-group-sm p-1" role="group"><button class="btn btn-primary rounded-pill px-3" type="button">Przeczytaj</button></div>
+                                                <div class="btn-group btn-group-sm p-1" role="group">
+                                                    <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <div class="card rounded-0 small">
+                                        <div class="card-header bg-lightgreen rounded-0 border-0 px-2">
+                                            <h4 class="mb-0 h6"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet</a></h4>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col px-2 py-1">
+                                                            <p class="text-body mb-0 text-opacity-75">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col-4 col-sm-3 px-2 py-1">
+                                                            <p class="mb-0">Data</p>
+                                                        </div>
+                                                        <div class="col px-2 py-1">
+                                                            <p class="mb-0">01.10.2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer px-2">
+                                            <div class="btn-toolbar justify-content-between m-n1">
+                                                <div class="btn-group btn-group-sm p-1" role="group"><button class="btn btn-primary rounded-pill px-3" type="button">Przeczytaj</button></div>
+                                                <div class="btn-group btn-group-sm p-1" role="group">
+                                                    <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <div class="card rounded-0 small">
+                                        <div class="card-header bg-lightgreen rounded-0 border-0 px-2">
+                                            <h4 class="mb-0 h6"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet</a></h4>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col px-2 py-1">
+                                                            <p class="text-body mb-0 text-opacity-75">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col-4 col-sm-3 px-2 py-1">
+                                                            <p class="mb-0">Data</p>
+                                                        </div>
+                                                        <div class="col px-2 py-1">
+                                                            <p class="mb-0">01.10.2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer px-2">
+                                            <div class="btn-toolbar justify-content-between m-n1">
+                                                <div class="btn-group btn-group-sm p-1" role="group"><button class="btn btn-primary rounded-pill px-3" type="button">Przeczytaj</button></div>
+                                                <div class="btn-group btn-group-sm p-1" role="group">
+                                                    <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <div class="card rounded-0 small">
+                                        <div class="card-header bg-lightgreen rounded-0 border-0 px-2">
+                                            <h4 class="mb-0 h6"><a class="text-decoration-none text-white" href="#">Lorem ipsum dolor sit amet</a></h4>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col px-2 py-1">
+                                                            <p class="text-body mb-0 text-opacity-75">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item px-2">
+                                                <div class="overflow-hidden">
+                                                    <div class="row mx-n2 my-n1">
+                                                        <div class="col-4 col-sm-3 px-2 py-1">
+                                                            <p class="mb-0">Data</p>
+                                                        </div>
+                                                        <div class="col px-2 py-1">
+                                                            <p class="mb-0">01.10.2021</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="card-footer px-2">
+                                            <div class="btn-toolbar justify-content-between m-n1">
+                                                <div class="btn-group btn-group-sm p-1" role="group"><button class="btn btn-primary rounded-pill px-3" type="button">Przeczytaj</button></div>
+                                                <div class="btn-group btn-group-sm p-1" role="group">
+                                                    <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <div class="table-responsive">
+                                <table class="table mb-0">
+                                    <thead class="text-white bg-lightgreen">
+                                        <tr>
+                                            <th class="w--200">Temat</th>
+                                            <th>Treść</th>
+                                            <th>Data</th>
+                                            <th class="text-end">Opcje</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="align-middle">
+                                        <tr>
+                                            <th><a class="text-decoration-none" href="#">Lorem ipsum dolor sit amet</a></th>
+                                            <td class="small">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</td>
+                                            <td class="text-nowrap">01.10.2021</td>
+                                            <td>
+                                                <div class="d-flex justify-content-end">
+                                                    <div class="btn-toolbar m-n1">
+                                                        <div class="btn-group btn-group-sm p-1" role="group">
+                                                            <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><a class="text-decoration-none" href="#">Lorem ipsum dolor sit amet</a></th>
+                                            <td class="small">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</td>
+                                            <td class="text-nowrap">01.10.2021</td>
+                                            <td>
+                                                <div class="d-flex justify-content-end">
+                                                    <div class="btn-toolbar m-n1">
+                                                        <div class="btn-group btn-group-sm p-1" role="group">
+                                                            <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><a class="text-decoration-none" href="#">Lorem ipsum dolor sit amet</a></th>
+                                            <td class="small">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</td>
+                                            <td class="text-nowrap">01.10.2021</td>
+                                            <td>
+                                                <div class="d-flex justify-content-end">
+                                                    <div class="btn-toolbar m-n1">
+                                                        <div class="btn-group btn-group-sm p-1" role="group">
+                                                            <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><a class="text-decoration-none" href="#">Lorem ipsum dolor sit amet</a></th>
+                                            <td class="small">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</td>
+                                            <td class="text-nowrap">01.10.2021</td>
+                                            <td>
+                                                <div class="d-flex justify-content-end">
+                                                    <div class="btn-toolbar m-n1">
+                                                        <div class="btn-group btn-group-sm p-1" role="group">
+                                                            <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th><a class="text-decoration-none" href="#">Lorem ipsum dolor sit amet</a></th>
+                                            <td class="small">Praesent gravida justo purus, ut maximus libero convallis eget. Vivamus efficitur porta arcu, eget hendrerit leo suscipit nec. Vivamus molestie mauris diam, ac euismod lorem luctus nec.</td>
+                                            <td class="text-nowrap">01.10.2021</td>
+                                            <td>
+                                                <div class="d-flex justify-content-end">
+                                                    <div class="btn-toolbar m-n1">
+                                                        <div class="btn-group btn-group-sm p-1" role="group">
+                                                            <div class="dropdown btn-group" role="group"><button class="btn btn-dark btn-sm dropdown-toggle rounded-pill px-3" aria-expanded="false" data-bs-toggle="dropdown" type="button"><span class="me-1">Opcje</span></button>
+                                                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Usuń wiadomość</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="section__pagination" class="pt-4">
+                    <div class="container">
+                        <div class="overflow-hidden">
+                            <div class="row justify-content-between align-items-center my-n1">
+                                <div class="col-sm-auto order-1 order-sm-2 py-1">
+                                    <p class="text-center mb-0">1-5 z 40 elementów</p>
+                                </div>
+                                <div class="col-auto order-2 order-sm-1 py-1">
+                                    <div><button class="btn btn-outline-dark rounded-pill px-3" type="button">Poprzednie</button></div>
+                                </div>
+                                <div class="col-auto order-3 py-1">
+                                    <div><button class="btn btn-primary rounded-pill px-3" type="button">Następne</button></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

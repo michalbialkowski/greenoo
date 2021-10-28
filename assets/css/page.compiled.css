@@ -39,7 +39,6 @@ html body {
 
 #section__page {
   max-width: 100vw;
-  overflow: hidden;
 }
 
 html {
@@ -138,4 +137,8 @@ body.nav__aplikacja #section__menu__mobile .nav__aplikacja {
 
 svg.icon--gradient * {
   fill: #00381a;
+}
+
+.position-sticky {
+  z-index: 25;
 }
